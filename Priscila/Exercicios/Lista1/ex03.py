@@ -5,9 +5,12 @@ print(f' O seu IMC é: {imc} ')
 
 '''
 pseudocodigo
-1-leia peso
-2-leia altura
-3-crie a variavel imc
-4- imc= peso/(altura*altura)
-5- imprima imc
+inicio algoritmo
+1- float peso, altura, imc;
+2-leia peso
+3-leia altura
+4-crie a variavel imc
+5- imc= peso/(altura*altura)
+6- imprima imc
+fim
 '''
