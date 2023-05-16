@@ -12,14 +12,19 @@ print(' Troca realizada ! \n')
 print(f' Agora o primeiro número é {n1} e o segundo é {n2}')
 
 '''
-pseudocodigo
-1. Leia o valor de A
-2. Leia valor de B
-3. Crie ma variável temporária chamada temp
-4. Atribua  valor de A a temp
-5. Atribua o valor de B a A
-6. Atribua o valor de temp a B
-7. Imprima os valores atualizados de A e B
+pseudocódigo
+inicio algoritmo
+inteiro n1,n2,troca:
+1-leia n1
+2-troca <- 0
+3-imprima " O número digitado foi: ",n1
+4-leia n2
+5-imprima " O  segundo número digitado foi: ",n2
+6-imprima " realizando transferência... "
+7- troca <-n1
+8-n1 <- n2
+9- n2<- troca
+10-imprima " Troca realizada  "
+11-imprima " Agora o primeiro número é: ",n1,"e o segundo é :",n2'
+fim algoritmo
 '''
-
-      
