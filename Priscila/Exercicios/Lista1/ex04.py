@@ -22,18 +22,19 @@ else:
     '''
 pseudocódigo
 inicio algoritmo
-    1-imprimir " Bem vindo a calculadora!"
-    2-imprimir "  digite 1 para: adição | digite 2 para: Subtração | digite 3 para : multiplicação | digite 4 para : divisão'
-    3-leia n1
-    4- leia n2
-    5- leia opcão
-    6- Se opcao igual a 1 Então:
+    1-float n1, n2, opcao;
+    2-imprimir " Bem vindo a calculadora!"
+    3-imprimir "  digite 1 para: adição | digite 2 para: Subtração | digite 3 para : multiplicação | digite 4 para : divisão'
+    4-leia n1
+    5- leia n2
+    6- leia opcão
+    7- Se opcao igual a 1 Então:
         imprimir "n1+n2"
         imprimir " Operação de Adicção"
-    7- Se opcao igual a 2 Então:
+    8- Se opcao igual a 2 Então:
         imprimir "n1-n2"
         imprimir " Operação de Subtração"
-    8- Se opcao igual a 3 Então:
+    9- Se opcao igual a 3 Então:
         imprimir "n1*n2"
         imprimir " Operação de Multiplicação"
     10- Se opcao igual a 4 Então:
